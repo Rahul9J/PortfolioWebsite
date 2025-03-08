@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
         } else if (section === "contact") {
             content = `
                 <h2>Contact</h2>
-                <p>📧 Email: rahul@example.com</p>
+                <p>📧 Email: rahulj9@gmail.com</p>
                 <p>📍 Location: India</p>
             `;
         }
@@ -56,4 +56,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Expose showContent function globally so it can be used in HTML
     window.showContent = showContent;
+
+    document.getElementById("githubBtn").addEventListener("click", function() {
+        window.open("https://github.com/Rahul9J", "_blank");
+    });
+    
 });
